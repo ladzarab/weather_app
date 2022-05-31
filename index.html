@@ -15,7 +15,57 @@
   </head>
   <body>
     <div class="container">
-      <h1>hello world</h1>
+      <header>5-Day Forecast for:</header>
+
+      <div class="row">
+        <div class="col-6 box first">
+          <form id="search-form" class="search-form">
+            <input
+              class="search"
+              placeholder="Choose City"
+              autocomplete="off"
+              autofocus="on"
+              id="city-input"
+            />
+            <input type="submit" name="submit" class="submit" value="search" />
+          </form>
+
+          <button>Current Location</button>
+
+          <h1>Kansas City</h1>
+          <h2>4/25/2022</h2>
+          <h3>56°F</h3>
+          <h4 id="outside">sunny</h4>
+          windy
+        </div>
+
+        <div class="col-3 box-round">
+          Tomorrow:<br />
+          Monday<br />
+          ☀️<br />
+          43°F<br />
+          sunny
+        </div>
+        <div class="col-3 box">
+          Tuesday<br />
+          🌥<br />
+          53°F<br />
+          cloudy
+        </div>
+        <div class="col-3 box">
+          Wednesday<br />
+          🌧<br />
+          57°F <br />
+          light rain
+        </div>
+        <div class="col-3 box">
+          Thursday <br />
+          ⛈<br />
+          55°F<br />
+          thunderstorm
+        </div>
+      </div>
+      <footer>coded by ladan zarabi</footer>
     </div>
     <script src="src/app.js"></script>
   </body>
