@@ -55,5 +55,22 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
+function displayFahrenheitTemperature(event) {
+  event.preventDefault();
+  let farenheitTemperature = (14 * 9) / 5 + 32;
+  alert(temperatureElement) = document.querySelector("#temperature");
+  temperatureElement.innerHML = Math.round(farenheitTemperature);
+}
+
+
+
+let celsiusTemperature = null;
+
 let form = document.querySelector("search-form");
 form.addEventListener("submit", handleSubmit);
+
+
+let farenheitLink = document.querySelector("#fahrenheit-link");
+farenheitLink.addEventListener("click", displayFahrenheitTemperature);
+
+search("New York");
